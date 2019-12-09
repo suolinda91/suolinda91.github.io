@@ -4,7 +4,4 @@ permalink: /about/
 header:
   image: "/images/zakim.jpg"
 ---
-
-I'm a senior data scientist who excels at data wrangling, machine learning, exploratory analysis, and data visualizations.
-
-Etc, etc, etc
+I recently graduated from Leiden University and aspire to work as a Data Analyst. I have some experience with Python, SQL, Tableau, Microsoft Power BI, Stata, and R.

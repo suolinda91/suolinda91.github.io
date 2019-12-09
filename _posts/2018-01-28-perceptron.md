@@ -48,11 +48,11 @@ plt.show()
 ```
 
 
-![png](vienna_files/vienna_0_0.png)
+![png](vienna_files/vienna_median_rental_prices.jpg)
 
 
 
-![png](vienna_files/vienna_0_1.png)
+![png](vienna_files/vienna_filtered_fig.jpg)
 
 
 

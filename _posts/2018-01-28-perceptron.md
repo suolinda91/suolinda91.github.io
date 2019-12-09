@@ -1,10 +1,10 @@
 ---
-title: "Data Wrangling Project"
+title: "Rental prices in Vienna"
 date: 2018-01-28
 tags: [data wrangling, data science, messy data]
 header:
-  image: "/images/perceptron/percept.jpg"
-excerpt: "Rental prices in Vienna"
+  image: " "
+excerpt: " "
 mathjax: "true"
 ---
 
@@ -48,62 +48,8 @@ plt.show()
 ```
 
 
-![png](vienna_files/vienna_median_rental_prices.jpg)
+![jpg](vienna_files/vienna_median_rental_prices.jpg)
 
 
 
-![png](vienna_files/vienna_filtered_fig.jpg)
-
-
-
-## H2 Heading
-
-### H3 Heading
-
-Here's some basic text.
-
-And here's some *italics*
-
-Here's some **bold** text.
-
-
-
-Here's a bulleted list:
-* First item
-+ Second item
-- Third item
-
-Here's a numbered list:
-1. First
-2. Second
-3. Third
-
-Python code block:
-```python
-    import numpy as np
-
-    def test_function(x, y):
-      z = np.sum(x,y)
-      return z
-```
-
-R code block:
-```r
-library(tidyverse)
-df <- read_csv("some_file.csv")
-head(df)
-```
-
-Here's some inline code `x+y`.
-
-Here's an image:
-<img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/linsep.jpg" alt="linearly separable data">
-
-Here's another image using Kramdown:
-![alt]({{ site.url }}{{ site.baseurl }}/images/perceptron/linsep.jpg)
-
-Here's some math:
-
-$$z=x+y$$
-
-You can also put it inline $$z=x+y$$
+![jpg](vienna_files/vienna_filtered_fig.jpg)

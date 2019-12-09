@@ -1,6 +1,6 @@
 ---
 title: "California Immunization Rates "
-date: 2019-11-20
+date: 2019-12-02
 tags: [california immunization rates]
 header:
   image: " "

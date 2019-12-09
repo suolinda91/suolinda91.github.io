@@ -1,55 +1,18 @@
 ---
-title: "Rental prices in Vienna"
+title: "Private side projects"
 date: 2019-11-20
-tags: [data wrangling, data science, messy data]
+tags: [california immunization rates, rental prices in vienna]
 header:
   image: " "
 excerpt: " "
 mathjax: "true"
 ---
 
+# California Immunization Rates [ongoing]
+I use a data set from Kaggle to visualise the immunization rates of incoming kindergarten students in California, USA. I make use of the library seaborn to visualise exemptions based on Personal Beliefs or medical issues and the immunization rates of MMR, Polio and DTP. In addition, I created a wordcloud to see whether there are certain school names that tend to have low immunization rates.
+[Google Colab](https://drive.google.com/open?id=143Gq9j8xcL-T2p8h2EXBUX86QyYvfejk)
+
 # Rental prices in Vienna
 
-Copied from my [Google Colab](https://colab.research.google.com/drive/1IQlD-ijFpHuK8Mb2NvtLIaCy6Z9_YV9n)
+Data on apartments which are available for rent in Austria are collected in a MySQL database since August 2019. I filtered data from Vienna and displayed the development of the median rental prices over time. Project can be viewed on [Google Colab](https://drive.google.com/open?id=1IQlD-ijFpHuK8Mb2NvtLIaCy6Z9_YV9n)
 
-```
-import pandas as pd
-import matplotlib.pyplot as plt
-
-vienna_df = pd.read_csv('./vienna-rental-prices-data.csv', parse_dates=True)
-vienna_df['date'] = pd.to_datetime(vienna_df['date'])
-
-vienna_df['period']= vienna_df['date'].dt.to_period('M')
-
-vienna_fig = plt.figure()
-vienna_ax = vienna_fig.subplots()
-vienna_df.groupby(['period', 'flat_plz']).median()['flat_price_per_m'].unstack().plot(ax=vienna_ax)
-
-vienna_ax.legend(loc='center left', bbox_to_anchor=(1,0.5), ncol=3)
-vienna_ax.set_xlabel('Date')
-vienna_ax.set_ylabel('Median flat price per sqm in €')
-vienna_ax.set_title('Median rental prices in Vienna')
-
-vienna_filtered = vienna_df[(vienna_df['flat_plz'] == 1010) | 
-                            (vienna_df['flat_plz'] == 1080) | 
-                            (vienna_df['flat_plz'] == 1130) | 
-                            (vienna_df['flat_plz'] == 1160)].groupby(['period', 'flat_plz']).median()
-
-vienna_filtered_fig = plt.figure()
-vienna_filtered_ax = vienna_filtered_fig.subplots()
-vienna_filtered['flat_price_per_m'].unstack().plot(ax=vienna_filtered_ax)
-
-vienna_filtered_ax.legend(loc='center left', bbox_to_anchor=(1,0.5), ncol=3)
-vienna_filtered_ax.set_xlabel('Date')
-vienna_filtered_ax.set_ylabel('Median flat price per sqm in €')
-vienna_filtered_ax.set_title('Median rental prices for 1010, 1080, 1130 and 1160')
-
-plt.show()
-```
-
-
-![jpg](vienna_files/vienna_median_rental_prices.jpg)
-
-
-
-![jpg](vienna_files/vienna_filtered_fig.jpg)

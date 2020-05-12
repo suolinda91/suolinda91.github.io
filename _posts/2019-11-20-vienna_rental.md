@@ -15,4 +15,4 @@ Data on apartments which are available for rent in Austria are collected in a My
 
 
 
-[![Screenshot](vienna_files/vienna-heatmap.jpg)](https://drive.google.com/open?id=1IQlD-ijFpHuK8Mb2NvtLIaCy6Z9_YV9n)
+[![Screenshot](vienna_files/vienna-heatmap.jpg)](vienna_files/vienna_heatmap.html)

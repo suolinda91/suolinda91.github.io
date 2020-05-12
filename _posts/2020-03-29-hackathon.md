@@ -13,4 +13,4 @@ Tools to detect respiratory diseases such as asthma but also possibly for Covid-
 
 Presentation of the finished project can be viewed on [Youtube](https://youtu.be/n_ywYdjZJLI)
 
-![Screenshot](vienna_files/coughfortheworld.jpg)
+![Screenshot](../vienna_files/coughfortheworld.jpg)

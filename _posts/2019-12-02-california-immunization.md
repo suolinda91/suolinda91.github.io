@@ -13,5 +13,5 @@ I use a data set from Kaggle to visualise the immunization rates of incoming kin
 [Google Colab](https://drive.google.com/open?id=143Gq9j8xcL-T2p8h2EXBUX86QyYvfejk)
 
 
-![Wordcloud](../img/immunizationrate.jpg)
+![Screenshot](../img/immunizationrate.jpg)
 

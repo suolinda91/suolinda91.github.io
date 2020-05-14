@@ -2,8 +2,6 @@
 title: "Rental prices in Vienna"
 date: 2019-11-20
 tags: [rental prices in vienna, heatmap, data analysis, machine learning]
-author: "Susanna Olinda Kusrini"
-image: "../vienna_files/vienna_heatmap.html"
 header:
   image: " "
 excerpt: " "

@@ -1,20 +1,16 @@
 ---
 title: "Rental prices in Vienna"
-date: 2020-03-29
-tags: [hackathon, hack the crisis, cough, coronavirus, covid-19]
+date: 2019-11-20
+tags: [rental prices in vienna, heatmap, data analysis, machine learning]
 header:
   image: " "
 excerpt: " "
 mathjax: "true"
 ---
-# Cough for the World
+# Rental prices in Vienna
 
-Tools to detect respiratory diseases such as asthma but also possibly for Covid-19 are needed. The goal of the tool is to advice to go to a doctor or to tell the participants that their status is unknown and they still may need medical advice. This could help to increase awareness for individuals who might not consider their coughing as a serious sign. 
+Data on apartments which are available for rent in Austria are collected in a MySQL database since August 2019. I filtered data from Vienna and displayed the development of the median rental prices over time. The median rental prices are also viewed on a map. In addition I used a ML model to try to predict median rental prices. Project can be viewed on [Google Colab](https://drive.google.com/open?id=1IQlD-ijFpHuK8Mb2NvtLIaCy6Z9_YV9n)
 
-As a team we developed a survey and a platform where participants and doctors can upload a recording of their coughing. Once we have enough data, we can feed it to our ML model which we have also already built. It transforms the data from a time into a frequency space and uses the resulting spectrum to find correlations between the data. As soon as there is enough data, we can train our ML model. And further develop for people to have their coughs analysed.
+[![Screenshot](../vienna_files/vienna-heatmap.jpg)](../vienna_files/vienna_heatmap.html)
 
-This project was done in the course of the Hack the Crisis Austria Hackathon.
-
-Presentation of the finished project can be viewed on [Youtube](https://youtu.be/n_ywYdjZJLI)
-
-![Screenshot](../vienna_files/heatmap-big.jpg)
+![Median Rental Prices](../vienna_files/vienna_median_rental_prices.jpg)

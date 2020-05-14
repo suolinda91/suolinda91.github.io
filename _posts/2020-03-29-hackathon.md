@@ -13,6 +13,8 @@ Tools to detect respiratory diseases such as asthma but also possibly for Covid-
 
 As a team we developed a survey and a platform where participants and doctors can upload a recording of their coughing. Once we have enough data, we can feed it to our ML model which we have also already built. It transforms the data from a time into a frequency space and uses the resulting spectrum to find correlations between the data. As soon as there is enough data, we can train our ML model. And further develop for people to have their coughs analysed.
 
+This project was done in the course of the Hack the Crisis Austria Hackathon.
+
 Presentation of the finished project can be viewed on [Youtube](https://youtu.be/n_ywYdjZJLI)
 
 ![Screenshot](../vienna_files/coughfortheworld.jpg)

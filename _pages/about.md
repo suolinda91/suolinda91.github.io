@@ -2,7 +2,7 @@
 title: "About Susanna"
 permalink: /about/
 header:
-  image: "/images/zakim.jpg"
+  image: ""
 ---
 I am a **data analyst** with a research background using quantitative and qualitative methods. I also have experience in online marketing. I am fluent in German, English, and Dutch.
 
